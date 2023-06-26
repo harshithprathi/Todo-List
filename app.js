@@ -1,10 +1,8 @@
 //jshint esversion:6
-
-const express = require("express");
-const bodyParser = require("body-parser");
-const MongoCLient=require('mongodb').MongoClient;
-const mongoose = require('mongoose');
-const date = require(__dirname + "/date.js");
+import express from "express";
+import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import { MongoClient } from "mongodb";
 
 const app = express();
 
